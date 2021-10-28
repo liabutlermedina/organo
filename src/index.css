@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Sans Serif';
+  src: url('../src/fonts/CeraPro-Bold.woff') format('woff'),
+    url('../src/fonts/CeraPro-Medium.woff') format('woff');
+}
