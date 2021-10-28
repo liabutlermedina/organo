@@ -7,11 +7,11 @@ export default () => {
   return (
     <div className='bg-gray-100/90 shadow-2xl p-6 rounded-2xl absolute right-0 bottom-60 z-10 space-y-1'>
       <div className='flex'>
-        <img src={uno} alt='' className='' />
-        <img src={dos} alt='' className='-ml-4' />
-        <img src={tres} alt='' className='-ml-4' />
+        <img src={uno} alt='' className='w-[50px] h-[50px]' />
+        <img src={dos} alt='' className='-ml-4 w-[50px] h-[50px]' />
+        <img src={tres} alt='' className='-ml-4 w-[50px] h-[50px]' />
       </div>
-      <p className='font-semibold'>Happy Customers</p>
+      <p className='font-semibold text-sm'>Happy Customers</p>
       <div className='flex gap-1 items-center'>
         <svg
           xmlns='http://www.w3.org/2000/svg'

@@ -9,7 +9,7 @@ export default () => {
     <div className='flex justify-between mt-'>
       <div className='flex flex-col gap-5'>
         <p className='text-green-500 font-bold'>100% Organic food</p>
-        <h1 className='font-bold text-6xl mb-2'>
+        <h1 className='font-bold text-5xl mb-2'>
           Healthy Lifestyle <br /> is your only{' '}
           <span className='text-green-500'>
             unfair <br /> advantage
@@ -31,7 +31,7 @@ export default () => {
       <div className='absolute right-28 -mt-7'>
       <FastCard />
         <HappyCard />
-        <img src={salad} alt='' className='w-[500px] ' />
+        <img src={salad} alt='' className='w-[480px] ' />
       </div>
     </div>
   )

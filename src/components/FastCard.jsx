@@ -6,9 +6,9 @@ export default () => {
     <div className='bg-gray-100/90 shadow-2xl pr-3 overflow-hidden rounded-2xl absolute left-0 bottom-24 z-10'>
       <div className='flex gap-5 items-center'>
         <div className='rounded-full bg-gray-200 w-36 h-36 -mb-20 -ml-10'></div>
-        <img src={deliveryGuy} alt='' className='-ml-28' />
+        <img src={deliveryGuy} alt='' className='-ml-28 w-[80px]' />
         <div className=''>
-          <p className='font-semibold'>Fast Delivery</p>
+          <p className='font-semibold text-sm'>Fast Delivery</p>
           <div className='flex gap-1 items-center'>
             <p className='text-xs'>Your food in 30 minutes</p>
             <svg

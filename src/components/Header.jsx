@@ -4,10 +4,10 @@ export default () => {
   const [bgClor, setbgColor] = useState(false)
   return (
     <div className=" flex justify-between items-center">
-      <h1 className="font-bold text-3xl cursor-pointer">
+      <h1 className="font-bold text-2xl cursor-pointer">
         Organ<span className="text-green-500">o</span>
       </h1>
-      <nav className="font-bold text-lg">
+      <nav className="font-bold">
         <ul className="flex gap-10 items-center">
           <li className="text-green-500 cursor-not-allowed">Home</li>
           <li className="hover:text-green-500 cursor-pointer">Delivery</li>
