@@ -5,7 +5,7 @@ import tres from '../img/3.png'
 
 export default () => {
   return (
-    <div className='bg-gray-100/90 shadow-2xl p-7 rounded-2xl absolute right-0 bottom-80 z-10'>
+    <div className='bg-gray-100/90 shadow-2xl p-6 rounded-2xl absolute right-0 bottom-60 z-10 space-y-1'>
       <div className='flex'>
         <img src={uno} alt='' className='' />
         <img src={dos} alt='' className='-ml-4' />

@@ -31,7 +31,7 @@ export default () => {
       <div className='absolute right-28 -mt-7'>
       <FastCard />
         <HappyCard />
-        <img src={salad} alt='' className='w-[550px] ' />
+        <img src={salad} alt='' className='w-[500px] ' />
       </div>
     </div>
   )
